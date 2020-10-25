@@ -1,0 +1,25 @@
+<div class="prod">
+    
+        <div>
+<h4>
+    <div>
+        <img src='{{photo}}'>
+        </div>
+    <table>
+        <tr>
+    <td>{{name1}}</td>
+    <td>{{description}}</td>
+    <td>{{count}}</td>
+    <td>{{price}}</td>
+    <td>{{creation_date}}</td>
+    </tr>
+    </table>
+    
+</h4>
+</div>
+<div>
+    <button (click)="editForm()">Edit</button>
+  </div>
+  <div *ngIf="toogle">
+      <app-prod-form></app-prod-form>
+</div>
