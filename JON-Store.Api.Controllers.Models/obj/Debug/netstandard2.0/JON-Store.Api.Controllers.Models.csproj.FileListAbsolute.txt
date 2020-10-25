@@ -1,0 +1,8 @@
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\bin\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.deps.json
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\bin\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\obj\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.csprojAssemblyReference.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\obj\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.AssemblyInfoInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\obj\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.AssemblyInfo.cs
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\bin\Debug\netstandard2.0\JON-Store.DomainModel.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\bin\Debug\netstandard2.0\JON-Store.DomainModel.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Api.Controllers.Models\obj\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.csproj.CopyComplete

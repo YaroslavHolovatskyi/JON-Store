@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DataAccess\\JON-Store.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.Api.Controllers.Models\\JON-Store.Api.Controllers.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.Api.Controllers.Models\\JON-Store.Api.Controllers.Models.csproj",
+        "projectName": "JON-Store.Api.Controllers.Models",
+        "projectPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.Api.Controllers.Models\\JON-Store.Api.Controllers.Models.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.Api.Controllers.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DataAccess\\JON-Store.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DataAccess\\JON-Store.DataAccess.csproj",
+        "projectName": "JON-Store.DataAccess",
+        "projectPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DataAccess\\JON-Store.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.Api.Controllers.Models\\JON-Store.Api.Controllers.Models.csproj": {
+                "projectPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.Api.Controllers.Models\\JON-Store.Api.Controllers.Models.csproj"
+              },
+              "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj",
+        "projectName": "JON-Store.DomainModel",
+        "projectPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\JON-Store.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jaros\\source\\repos\\JON-Store\\JON-Store.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

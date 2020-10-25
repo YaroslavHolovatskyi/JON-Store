@@ -1,0 +1,6 @@
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.DataAccess.deps.json
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.DataAccess.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.csprojAssemblyReference.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.AssemblyInfoInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.AssemblyInfo.cs
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.csproj.CoreCompileInputs.cache

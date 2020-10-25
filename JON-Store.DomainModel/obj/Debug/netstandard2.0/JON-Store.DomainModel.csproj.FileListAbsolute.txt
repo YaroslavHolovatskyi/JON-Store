@@ -1,0 +1,8 @@
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\bin\Debug\netstandard2.0\JON-Store.DomainModel.deps.json
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\bin\Debug\netstandard2.0\JON-Store.DomainModel.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\obj\Debug\netstandard2.0\JON-Store.DomainModel.AssemblyInfoInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\obj\Debug\netstandard2.0\JON-Store.DomainModel.AssemblyInfo.cs
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\bin\Debug\netstandard2.0\JON-Store.DomainModel.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\obj\Debug\netstandard2.0\JON-Store.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\obj\Debug\netstandard2.0\JON-Store.DomainModel.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DomainModel\obj\Debug\netstandard2.0\JON-Store.DomainModel.pdb

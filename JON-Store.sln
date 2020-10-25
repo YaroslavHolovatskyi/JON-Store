@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JON-Store", "JON-Store\JON-Store.csproj", "{CBCDDA86-5748-489C-9CCB-E215F45CC94C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JON-Store.Web", "JON-Store\JON-Store.Web.csproj", "{CBCDDA86-5748-489C-9CCB-E215F45CC94C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JON-Store.Api.Controllers.Models", "JON-Store.Api.Controllers.Models\JON-Store.Api.Controllers.Models.csproj", "{BEC8C579-635E-409B-94D5-6FC4B862897D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JON-Store.Services", "JON-Store.Services\JON-Store.Services.csproj", "{2F7AA7C4-4BEB-4514-BB80-CB2A7AC9F597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JON-Store.DataAccess", "JON-Store.DataAccess\JON-Store.DataAccess.csproj", "{DA40D3D6-2147-48EE-A8F8-C5A4E4BCAE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JON-Store.DomainModel", "JON-Store.DomainModel\JON-Store.DomainModel.csproj", "{37D36C2A-DC72-45AF-9F50-C08F95DBAAC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{CBCDDA86-5748-489C-9CCB-E215F45CC94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBCDDA86-5748-489C-9CCB-E215F45CC94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBCDDA86-5748-489C-9CCB-E215F45CC94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC8C579-635E-409B-94D5-6FC4B862897D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC8C579-635E-409B-94D5-6FC4B862897D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC8C579-635E-409B-94D5-6FC4B862897D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC8C579-635E-409B-94D5-6FC4B862897D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7AA7C4-4BEB-4514-BB80-CB2A7AC9F597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7AA7C4-4BEB-4514-BB80-CB2A7AC9F597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7AA7C4-4BEB-4514-BB80-CB2A7AC9F597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7AA7C4-4BEB-4514-BB80-CB2A7AC9F597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA40D3D6-2147-48EE-A8F8-C5A4E4BCAE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA40D3D6-2147-48EE-A8F8-C5A4E4BCAE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA40D3D6-2147-48EE-A8F8-C5A4E4BCAE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA40D3D6-2147-48EE-A8F8-C5A4E4BCAE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D36C2A-DC72-45AF-9F50-C08F95DBAAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D36C2A-DC72-45AF-9F50-C08F95DBAAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D36C2A-DC72-45AF-9F50-C08F95DBAAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D36C2A-DC72-45AF-9F50-C08F95DBAAC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
