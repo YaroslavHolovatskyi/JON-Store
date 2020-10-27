@@ -4,3 +4,11 @@ C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard
 C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.AssemblyInfoInputs.cache
 C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.AssemblyInfo.cs
 C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.DataAccess.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.DomainModel.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\bin\Debug\netstandard2.0\JON-Store.DomainModel.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.csproj.CopyComplete
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.DataAccess\obj\Debug\netstandard2.0\JON-Store.DataAccess.pdb

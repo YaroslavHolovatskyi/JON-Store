@@ -20,64 +20,69 @@ namespace JON_Store.Services.Implamentations
         private readonly IUnitOfWork _unitOfWork;
         private readonly IProductRepository _productRepository;
 
-        public ProductService(IMapper mapper, IUnitOfWork unitOfWork, IProductRepository productRepository)
+        public ProductService(IMapper mapper, IUnitOfWork unitOfWork)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
-            _productRepository = productRepository;
+            _productRepository = _unitOfWork.GetRepository<IProductRepository>();
         }
-        public int GetTotalClientAmount(ProductListRequestModel request)
-        {
-            return _productRepository
-                .Count(_mapper.Map<ProductFilteringInput>(request));
-        }
+        //public int GetTotalProductAmount(ProductListRequestModel request)
+        //{
+        //    return _productRepository
+        //        .Count(_mapper.Map<ProductFilteringInput>(request));
+        //}
         public async Task<GetSingleProductResponseModel> GetProductAsync(int productId)
         {
             var product = await _productRepository.GetAsync(productId);
             return _mapper.Map<GetSingleProductResponseModel>(product);
         }
-        public IReadOnlyCollection<ProductListResponseModel> GetClients(ProductListRequestModel productListRequestModel)
-        {
-            return _productRepository
-                .GetList(_mapper.Map<ProductFilteringInput>(productListRequestModel))
-                .Select(_mapper.Map<Product, ProductListResponseModel>)
-                .ToArray();
-        }
-        public IReadOnlyCollection<ProductResponseModel> GetProducts(int id)
-        {
-            return _productRepository
-                .GetList(id)
-                .Select(_mapper.Map<Product, ProductResponseModel>)
-                .ToArray();
-        }
-        public async Task<bool> AddClientAsync(CreateProductRequestModel createClientRequestModel)
-        {
-            var client = _mapper.Map<Product>(createClientRequestModel);
-            await _productRepository.InsertAsync(client);
-            try
-            {
-                await _unitOfWork.CompleteAsync();
-            }
-            catch (DbUpdateException)
-            {
-                return false;
-            }
-            return true;
-        }
+        //public IReadOnlyCollection<ProductListResponseModel> GetClients(ProductListRequestModel productListRequestModel)
+        //{
+        //    //return _productRepository
+        //    //    .GetList(_mapper.Map<ProductFilteringInput>(productListRequestModel))
+        //    //    .Select(_mapper.Map<Product, ProductListResponseModel>)
+        //    //    .ToArray();
+        //    return null;
+        //}
+        //public IReadOnlyCollection<ProductResponseModel> GetProducts(int id)
+        //{
+        //    return _productRepository
+        //        .GetList(id)
+        //        .Select(_mapper.Map<Product, ProductResponseModel>)
+        //        .ToArray();
+        //}
+        //public async Task<bool> AddProductAsync(CreateProductRequestModel createClientRequestModel)
+        //{
+        //    var client = _mapper.Map<Product>(createClientRequestModel);
+        //    await _productRepository.InsertAsync(client);
+        //    try
+        //    {
+        //        await _unitOfWork.CompleteAsync();
+        //    }
+        //    catch (DbUpdateException)
+        //    {
+        //        return false;
+        //    }
+        //    return true;
+        //}
 
-        public async Task<bool> DeleteAsync(int productId)
-        {
-            _productRepository.Delete(productId);
-            try
-            {
-                await _unitOfWork.CompleteAsync();
-            }
-            catch (DbUpdateException)
-            {
-                return false;
-            }
-            return true;
-        }
-      
+        //public async Task<bool> DeleteAsync(int productId)
+        //{
+        //    _productRepository.Delete(productId);
+        //    try
+        //    {
+        //        await _unitOfWork.CompleteAsync();
+        //    }
+        //    catch (DbUpdateException)
+        //    {
+        //        return false;
+        //    }
+        //    return true;
+        //}
+        //public bool Contains(int productId)
+        //{
+        //    return _productRepository.Contains(productId);
+        //}
+
     }
 }

@@ -1,7 +1,11 @@
+using JON_Store.EntityFrameworkCore;
+using JON_Store.EntityFrameworkCore.Initializers;
+using JON_Store.EntityFrameworkCore.Interfaces;
+using JON_Store.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,6 +30,17 @@ namespace JON_Store
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+            services.AddDbContext<JonStoreDbContext>(options =>
+                    options.UseMySql(Configuration.GetConnectionString("Default")));
+
+            services.AddMapper(Configuration);
+
+            services.AddScoped<IDbInitializer, DefaultDbInitialier>();
+            services.AddScoped<DbContext, JonStoreDbContext>();
+
+            services.AddMySqlRepositories(Configuration);
+            services.AddBusinessLogicServices(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -6,3 +6,11 @@ C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\obj\Debug\netstandard2.
 C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.DataAccess.dll
 C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.DomainModel.dll
 C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.DomainModel.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.Services.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.DataAccess.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\bin\Debug\netstandard2.0\JON-Store.Api.Controllers.Models.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\obj\Debug\netstandard2.0\JON-Store.Services.csproj.CoreCompileInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\obj\Debug\netstandard2.0\JON-Store.Services.csproj.CopyComplete
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\obj\Debug\netstandard2.0\JON-Store.Services.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.Services\obj\Debug\netstandard2.0\JON-Store.Services.pdb

@@ -14,6 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
   </ItemGroup>
@@ -23,6 +24,13 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JON-Store.Api.Controllers.Models\JON-Store.Api.Controllers.Models.csproj" />
+    <ProjectReference Include="..\JON-Store.DataAccess\JON-Store.DataAccess.csproj" />
+    <ProjectReference Include="..\JON-Store.EntityFrameworkCore\JON-Store.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\JON-Store.Services\JON-Store.Services.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

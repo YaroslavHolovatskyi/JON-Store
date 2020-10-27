@@ -8,6 +8,7 @@ namespace JON_Store.DataAccess.Repositories.Abstract
     public interface IRepository<TEntity>
         where TEntity : class
     {
+        bool Contains(int id);
         IQueryable<TEntity> Query { get; }
         void Delete(object id);
         void Delete(TEntity entityToDelete);

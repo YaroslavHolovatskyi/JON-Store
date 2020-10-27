@@ -1,0 +1,12 @@
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\bin\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.deps.json
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\bin\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\bin\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\bin\Debug\netstandard2.0\JON-Store.DomainModel.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\bin\Debug\netstandard2.0\JON-Store.DomainModel.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.dll
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.pdb
+C:\Users\jaros\source\repos\JON-Store\JON-Store.EntityFrameworkCore\obj\Debug\netstandard2.0\JON-Store.EntityFrameworkCore.csproj.CoreCompileInputs.cache

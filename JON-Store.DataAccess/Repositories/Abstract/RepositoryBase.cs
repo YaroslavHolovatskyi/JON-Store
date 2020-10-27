@@ -79,7 +79,8 @@ namespace JON_Store.DataAccess.Repositories.Abstract
         }
         public virtual Task InsertAsync(TEntity entity)
         {
-            return _dbSet.AddAsync(entity);
+            return null;
+            //return _dbSet.AddAsync(entity);
         }
         public virtual void Update(TEntity entityToUpdate)
         {
